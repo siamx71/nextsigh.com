@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+background-color: white;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 150vh;
+    display: none;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.logoImg img {
+  width: 170px;
+  height: 70px;
+  margin: auto;
+}
+.continer {
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    border-radius: 7px;
+}
+.continer input {
+    padding: 6px ;
+    font-size: 16px;
+    border-radius: 7px ;
+}
+.continer button{
+    color: white;
+    background-color: black;
+    padding: 4px 4px;
+    font-size: medium;
+    border-radius: 7px;
+}
+.search2 {
+    display: none;
+    font-size: larger;
+}
+.cart {
+    font-size: larger;
+    
+}
+.menuBar{
+    display: none;
+}
+@media (max-width:800px)  {
+    
+    .continer input {
+        display: none;
+    }
+    .continer button {
+        display: none;
+    }
+    .search2{
+        display: block;
+    }
+   
+    .cart {
+        font-size: 1.4rem;
+        padding: 5px;
+    }
+    
+    .menuBar{
+    display: block;
+}
+.header {
+    display: flex;
+}
+}
+
+.icons {
+  font-size: 1.4rem;
+  padding: 5px;
+}
+
+@media (max-width:800px) {
+    .header1 {
+        display: none;
+    }
+}
+.logonextsign2 {
+    font-size: 2rem;
+    margin: auto;
+
+}
+.menubar {
+    font-size: 1.5rem;
+    margin: 15px;
+}
+.allIcons {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    
+}
